@@ -3,16 +3,22 @@
 }
 .crypto{
     border-collapse: separate;
-    border-spacing: 1.2rem;
+    /* border-spacing: 1.2rem; */
     width: 100%;
     margin-top: 1.875rem;
     margin-bottom: 3.75rem;
 }
 .crypto > td{
-    width: 33% !important;
+    width: 33.333333% !important;
     font-size: .7rem;   
 }
+.text__crypto_md{
+    width: 100%;
+}
 
+.left__margin{
+    margin-left:auto;
+}
 .crypto > td div{
     width: 100%;
 }
@@ -389,6 +395,14 @@ a {
     padding-left: 0;
 }
 
+
+.text__crypto{
+    width: 6rem;
+}
+.text__crypto_fx{
+    width: 6.5rem;
+ }
+
 @media only screen and (max-width:600px){
     .main__body{
         padding: 0;
@@ -413,5 +427,11 @@ a {
      } 
      .crypto__img{
         width: 3rem !important;
+     }
+     .text__crypto{
+        width: 3rem;
+     }
+     .text__crypto_fx{
+        width: 3.5rem;
      }
 }
